@@ -1,18 +1,18 @@
-<<<<<<< HEAD
 # Emotion-Recognizer
 
-This code recognizes 3 types of emotions: Happy, Sad, Neutral.
-Input is taken through webcam.
+This code recognizes 3 types of emotions: Happy, Sad, Neutral. 
+Input is taken through the webcam.
 
-Dependencies:
+**Dependencies:**
 
     1) Python
     2) OpenCV
     3) Tensorflow 
 
-Running the code:
+**Running the emotion recognizer:**
 
-    python3 predict.py
+    python3 recognize.py
+   
+**Training the CNN:**
 
-
->>>>>>> dd331f06ba537751bcd1d9f6be9f67538c00c72d
+The code for training the emotion recognizer is provided in train.py. It requires the dataset to be in .pickle format.
